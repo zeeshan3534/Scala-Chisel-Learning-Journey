@@ -4,7 +4,7 @@ import chiseltest._
 import chisel3._
 import scala.util.Random
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class Mux_PAra_Test extends FreeSpec with ChiselScalatestTester{
     "Muxpara" in {
         test (new Mux_Module){ c=>
         // for (i<-0 until 50){
