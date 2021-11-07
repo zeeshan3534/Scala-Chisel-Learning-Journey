@@ -3,7 +3,7 @@ import org.scalatest._
 import chiseltest._
 import chisel3._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class ExtenderTest extends FreeSpec with ChiselScalatestTester{
     "BitExtender" in {
         test (new Extender){ c =>
         c.io.Instruction.poke(32500.S)
