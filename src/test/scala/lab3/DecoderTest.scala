@@ -4,7 +4,7 @@ import chiseltest._
 import chisel3._
 import chisel3.util._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class Deoder_Valid_Test extends FreeSpec with ChiselScalatestTester{
     "Decoder"  in {
      test (new decoder_with_valid()){ c =>
         c.io.in.poke("b11".U)
