@@ -1,6 +1,6 @@
 package lab1
 import chisel3 . _
-class Counter ( counterBits : UInt ) extends Module {
+class Signed_Counter ( counterBits : UInt ) extends Module {
     val io = IO ( new Bundle {
     val result = Output ( Bool () )
     })
