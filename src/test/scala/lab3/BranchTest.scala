@@ -1,4 +1,4 @@
-package labs
+package lab3
 import org.scalatest._
 import chisel3._
 import chiseltest._
