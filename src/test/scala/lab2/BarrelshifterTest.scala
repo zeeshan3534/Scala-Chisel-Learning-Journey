@@ -3,7 +3,7 @@ import org.scalatest._
 import chiseltest._
 import chisel3._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class barrel_shift_Test extends FreeSpec with ChiselScalatestTester{
     "Mux Barrel Shift" in  {
         test (new barrel_shift()){ c =>
         c.io.in(0).poke(1.B)
