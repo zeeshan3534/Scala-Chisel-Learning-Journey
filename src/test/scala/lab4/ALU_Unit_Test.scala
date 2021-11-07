@@ -8,7 +8,7 @@ import chiseltest . internal . VerilatorBackendAnnotation
 import scala . util . Random
 import ALUOP._
 
-class TestALU extends FreeSpec with ChiselScalatestTester {
+class Test_ALU extends FreeSpec with ChiselScalatestTester {
     "ALU__Test" in {
         test ( new ALU ) { c =>
         // ALU operations
