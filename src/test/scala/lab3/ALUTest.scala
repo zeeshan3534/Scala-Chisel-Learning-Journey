@@ -3,7 +3,7 @@ import org.scalatest._
 import chiseltest._
 import chisel3._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class ALUTest extends FreeSpec with ChiselScalatestTester{
     "Alu test" in  {
         test (new ArthmeticlogicUnit()){ c =>
         c.io.in_1.poke(12.U)
