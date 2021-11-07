@@ -3,7 +3,7 @@ import org.scalatest._
 import chiseltest._
 import chisel3._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class EncoderTest extends FreeSpec with ChiselScalatestTester{
     "Encoder" in {
         test(new Encoder69){ c=>
         c.io.in0.poke(21.U)
