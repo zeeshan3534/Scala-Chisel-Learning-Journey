@@ -5,7 +5,7 @@ import chiseltest._
 
 class CountTest1 extends FreeSpec with ChiselScalatestTester{
     "CounterTest test" in {
-        test(new Counter(3.U)){ c=>
+        test(new Signed_Counter(3.U)){ c=>
             c.clock.step(20)
             
          
