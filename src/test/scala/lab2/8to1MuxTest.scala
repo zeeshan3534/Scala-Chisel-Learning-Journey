@@ -3,7 +3,7 @@ import org.scalatest._
 import chiseltest._
 import chisel3._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class MuxLoopupTest extends FreeSpec with ChiselScalatestTester{
     "some test" in {
         test(new MuxLookup){ c=>
         c.io.in0.poke(0.B)
