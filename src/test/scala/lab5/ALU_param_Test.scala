@@ -1,4 +1,4 @@
-package practice
+package lab5
 import org.scalatest._
 import chiseltest._
 import chisel3._
