@@ -24,7 +24,7 @@ trait Config{
     val ALUOP_SIG_LEN = 4
 }
 
-import ALUOP._
+import RALUOP._
 
 class ALUIO extends Bundle with Config {
     val in_A = Input(UInt(WLEN.W))
