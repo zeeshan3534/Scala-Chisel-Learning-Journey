@@ -6,7 +6,7 @@ import chiseltest . _
 import chiseltest . experimental . TestOptionBuilder . _
 import chiseltest . internal . VerilatorBackendAnnotation
 import scala . util . Random
-import ALUOP._
+import BALUOP._
 
 class BranchCtrltest extends FreeSpec with ChiselScalatestTester {
     "Branching " in {
