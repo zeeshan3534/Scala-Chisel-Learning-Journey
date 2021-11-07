@@ -3,7 +3,7 @@ import org.scalatest._
 import chisel3._
 import chiseltest._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class Router_Pack_Test extends FreeSpec with ChiselScalatestTester{
     "Router_Parameter" in {
         test(new Router){c=>
 
