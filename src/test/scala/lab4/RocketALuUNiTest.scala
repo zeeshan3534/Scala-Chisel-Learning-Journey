@@ -6,11 +6,11 @@ import chiseltest . _
 import chiseltest . experimental . TestOptionBuilder . _
 import chiseltest . internal . VerilatorBackendAnnotation
 import scala . util . Random
-import ALUOP._
+import RALUOP._
 
 class Test_Roxket_ALU extends FreeSpec with ChiselScalatestTester {
     "ALUTest" in {
-        test ( new ALU ) { c =>
+        test ( new ALU1 ) { c =>
         // ALU operations
             val array_op = Array ( ALU_ADD , ALU_SUB , ALU_AND , ALU_OR , ALU_XOR , ALU_SLT ,
             ALU_SLL , ALU_SLTU , ALU_SRL , ALU_SRA , ALU_COPY_A , ALU_COPY_B , ALU_XXX )
