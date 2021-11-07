@@ -10,7 +10,7 @@ class BranchControl extends Bundle {
     val br_taken = Output ( Bool () )
 }
 
-object ALUOP {
+object BALUOP {
     val BEQ = 16.U(5.W)
     val BNE = 17.U(5.W)
     val BLT = 20.U(5.W)
