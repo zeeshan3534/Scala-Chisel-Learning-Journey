@@ -4,7 +4,7 @@ import chiseltest._
 import chisel3._
 import scala.util.Random
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class Alu_Paraa_Test extends FreeSpec with ChiselScalatestTester{
     "ALUpara" in {
         test(new ALU(32)){ c=>
         for (i<-0 until 50){
