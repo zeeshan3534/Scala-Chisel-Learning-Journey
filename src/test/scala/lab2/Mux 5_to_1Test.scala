@@ -3,7 +3,7 @@ import org.scalatest._
 import chiseltest._
 import chisel3._
 
-class AndTest extends FreeSpec with ChiselScalatestTester{
+class mux5_to_1_Test extends FreeSpec with ChiselScalatestTester{
     "Mux 5_to_1" in {
         test(new mux5_to_1){ c=>
         c.io.a.poke(256.U)
