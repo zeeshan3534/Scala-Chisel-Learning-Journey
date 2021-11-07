@@ -1,4 +1,4 @@
-package practice
+package lab2
 import chisel3 . _
 // Mux IO interface class
 class Mux_2to1_IO extends Bundle {
