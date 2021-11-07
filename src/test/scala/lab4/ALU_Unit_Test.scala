@@ -1,4 +1,4 @@
-package practice
+package lab4
 import chisel3 . _
 import chisel3 . util
 import org . scalatest . _
